@@ -26,8 +26,10 @@ class App extends Component {
             I'm a web designer / developer based in Moscow, Russia. I have a
             passion for web design and love to create for web and mobile
             devices.
+          </p>{" "}
+          <p id="space" className="h1">
+            What I can do.
           </p>
-т          <p id='space' className="h1">What I can do.</p>
           <div className="row">
             <img src={ph} alt="photoshop" className="row-pic" />
             <div className="column">
@@ -58,14 +60,24 @@ class App extends Component {
             ✉ MESSAGE ME
           </a>
         </div>
-        <div className='footer'>
-        <div className='links'>
-        <a href='https://t.me/Rrromann' className='link'>telegram: @Rrromann</a>
-        <a href='mailto:4r5t7jd@gmail.com' className='link'>email: 4r5t7jd@gmail.com</a>
+        <div className="footer">
+          <div className="links">
+            <a href="https://t.me/Rrromann" className="link">
+              telegram: @Rrromann
+            </a>
+            <a href="mailto:4r5t7jd@gmail.com" className="link">
+              email: 4r5t7jd@gmail.com
+            </a>
+          </div>
+          <p>
+            © 2020{" "}
+            <a className="rights-link" href="/">
+              Kassady
+            </a>
+            . All rights reserved.
+          </p>
         </div>
-        <p>© 2020 <a className='rights-link' href='/'>Kassady</a>. All rights reserved.</p>
-        </div>
-        
+
         <div />
       </div>
     );
