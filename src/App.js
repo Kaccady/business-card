@@ -26,7 +26,7 @@ class App extends Component {
             passion for web design and love to create for web and mobile
             devices.
           </p>
-          <p className="h1">What I can do.</p>
+          <p id='space' className="h1">What I can do.</p>
           <div className="row">
             <img src={ph} alt="photoshop" className="row-pic" />
             <div className="column">

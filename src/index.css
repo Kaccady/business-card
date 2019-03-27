@@ -126,3 +126,7 @@ div {
   text-decoration: underline;
   color: black;
 }
+#space {
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
