@@ -3,6 +3,7 @@ import Land from "./land.svg";
 import logo from "./logo.png";
 import ph from "./ph.png";
 import vs from "./vs.png";
+import logo2 from "./logo2.png";
 
 class App extends Component {
   render() {
@@ -11,11 +12,11 @@ class App extends Component {
         <div className="welcome">
           <div className="header">
             <a href="/">
-              <img className="logo" alt="logo" src={logo} />
+              <img className="logo" alt="logo" src={logo2} />
             </a>
           </div>
-          <p className="h1">I'm Kass.</p>
-          <p className="text1">a web designer.</p>
+          <p className="h1">I'm Kassady.</p>
+          <p className="text1">a Front-End Developer.</p>
           <img className="land" alt="land" src={Land} />
         </div>
         <div className="skills">
@@ -26,7 +27,7 @@ class App extends Component {
             passion for web design and love to create for web and mobile
             devices.
           </p>
-          <p id='space' className="h1">What I can do.</p>
+т          <p id='space' className="h1">What I can do.</p>
           <div className="row">
             <img src={ph} alt="photoshop" className="row-pic" />
             <div className="column">
@@ -62,7 +63,7 @@ class App extends Component {
         <a href='https://t.me/Rrromann' className='link'>telegram: @Rrromann</a>
         <a href='mailto:4r5t7jd@gmail.com' className='link'>email: 4r5t7jd@gmail.com</a>
         </div>
-        <p>© 2020 <a className='rights-link' href='/'>Kass</a>. All rights reserved.</p>
+        <p>© 2020 <a className='rights-link' href='/'>Kassady</a>. All rights reserved.</p>
         </div>
         
         <div />
