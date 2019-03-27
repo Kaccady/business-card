@@ -26,7 +26,7 @@ class App extends Component {
             I'm a web designer / developer based in Moscow, Russia. I have a
             passion for web design and love to create for web and mobile
             devices.
-          </p>{" "}
+          </p>
           <p id="space" className="h1">
             What I can do.
           </p>
