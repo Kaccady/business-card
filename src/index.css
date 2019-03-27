@@ -12,22 +12,18 @@ code {
     monospace;
 }
 .App {
-  display: flex;
   flex-direction: column;
 }
 .welcome {
   background: #e0ebe8;
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
 .skills {
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
 .logo {
-  background-image: url(logo.png);
   background-size: cover;
   width: 150px;
   height: 150px;
@@ -52,10 +48,13 @@ code {
   width: 300px;
   height: 300px;
   margin: 40px;
-  align-self: center;
+}
+.row-pic {
+  width: 150px;
+  height: 150px;
+  margin: 30px;
 }
 .header {
-  display: flex;
   width: 100%;
 }
 .text1 {
@@ -64,5 +63,66 @@ code {
 }
 .text2 {
   font-size: 130%;
-  width: 460px;
+  max-width: 460px;
+}
+.text3 {
+  font-size: 130%;
+  max-width: 460px;
+  text-align: center;
+}
+.row {
+  max-width: 940px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+@media only screen and (max-width: 686px) {
+  .column {
+    align-items: center;
+  }
+  .text2 {
+    text-align: center;
+  }
+}
+#root {
+  display: block;
+}
+.message-me {
+  max-width: 600px;
+  width: 100%;
+  background-color: #45b29a;
+  color: #1b7f69;
+  text-decoration: none;
+  text-align: center;
+  font-size: 130%;
+  padding: 10px;
+  margin-top: 40px;
+}
+.footer {
+  background-color: #e0ebe8;
+  align-items: center;
+  margin-top: 120px;
+  flex-direction: column;
+  justify-content: center;
+}
+.link {
+  color: #45b29a;
+  text-decoration: none;
+  margin: 3px;
+  font-size: 130%;
+  padding: 20px;
+}
+.links {
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rights-link {
+  text-decoration: underline;
+  color: black;
 }
