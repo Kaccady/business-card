@@ -22,7 +22,7 @@ class App extends Component {
         <div className="skills">
           <img className="me" alt="Kass" src={logo} />
           <p className="h2">Hi.</p>
-          <p className="text2">
+          <p className="text3">
             I'm a web designer / developer based in Moscow, Russia. I have a
             passion for web design and love to create for web and mobile
             devices.
@@ -56,7 +56,7 @@ class App extends Component {
             If you have a project that you want to get started, think you need
             my help with something or just fancy saying hey, then get in touch.
           </p>
-          <a href="mailto:4r5t7jd@gmail.com" className="message-me">
+          <a href="mailto:mail@kassady.cf" className="message-me">
             ✉ MESSAGE ME
           </a>
         </div>
@@ -65,8 +65,8 @@ class App extends Component {
             <a href="https://t.me/Rrromann" className="link">
               telegram: @Rrromann
             </a>
-            <a href="mailto:4r5t7jd@gmail.com" className="link">
-              email: 4r5t7jd@gmail.com
+            <a href="mailto:mail@kassady.cf" className="link">
+              email: mail@kassady.cf
             </a>
           </div>
           <p>
